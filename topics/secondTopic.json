@@ -1,0 +1,25 @@
+const inquirer = require('inquirer');
+
+[
+  {
+    type: 'list',
+    name: '3',
+    massage: 'Как дела?',
+    choices: [
+      { name: 'Хорошо', value: 0 },
+      { name: 'пЛОХО', value: 0 },
+      { name: 'Отлично', value: 1 },
+    ],
+  },
+
+  {
+    type: 'list',
+    name: '4',
+    massage: 'Вопрос 2?',
+    choices: [
+      { name: 'Хорошо', value: 0 },
+      { name: 'пЛОХО', value: 1 },
+      { name: 'Отлично', value: 0 },
+    ],
+  },
+];
