@@ -10,7 +10,11 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+<<<<<<< HEAD
     "inquirer": "^8.2.6",
+=======
+    "inquirer": "^9.2.14",
+>>>>>>> 6968e515a45523cbb700b0f756d8679532ae8969
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
